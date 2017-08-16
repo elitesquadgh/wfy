@@ -1,0 +1,28 @@
+{
+
+    "name" : "ekowabaka/wyf",
+    "description" : "WYF Half-Baked App",
+    "license" : "MIT",
+    "require" : {
+        "smarty/smarty" : "3.1.*",
+        "phpoffice/phpexcel": "1.8.*",
+        "itbz/fpdf" : "1.7.*"
+    },
+    "include-path" : [
+        "./",
+        "src",
+        "src/utils/model_controller",
+        "src/utils/model_controller/jobs",
+        "src/utils/report_controllers",
+        "src/core/controllers",
+        "src/fapi/Forms",
+        "src/toolbar",
+        "src/tapi",
+        "src/rapi",
+        "src/user",
+        "src/core/models",
+        "src/core/models/datastores",
+        "src/core/models/datastores/databases/postgresql",
+        "src/core/cache/"    
+    ]
+}

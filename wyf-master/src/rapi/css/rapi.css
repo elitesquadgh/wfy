@@ -1,0 +1,40 @@
+.rapi-table{
+    width:100%;
+    border-collapse: collapse;
+    font-size: smaller;
+}
+
+.rapi-table > thead > tr
+{
+    background-color:#e8e8e8;
+    text-align: left;
+}
+
+.rapi-table th, .rapi-table td{
+    padding:5px;
+    border:1px solid #e8e8e8;
+    color:#404040;
+}
+
+.rapi-column-double{
+    text-align: right;
+}
+
+.rapi-total-row{
+    font-weight: bold;
+    background-color:#fcfcfc;
+    border-top:2px solid #d0d0d0;
+    border-bottom:4px solid #d0d0d0;
+}
+
+.rapi-text-title{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+.rapi-text-heading{
+    font-weight: bold;
+    margin:5px;
+    margin-top:10px;
+}
